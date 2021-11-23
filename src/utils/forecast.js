@@ -14,7 +14,8 @@ const forecast = (longitude, latitude, callback) => {
             const weatherStackData = current;
             const feel = weatherStackData.weather_descriptions[0] + '. It is currently ' +
                 weatherStackData.temperature + ' degrees out. It feels like ' +
-                weatherStackData.feelslike + ' degrees out.';
+                weatherStackData.feelslike + ' degrees out.' + ' Humidity: ' +
+                weatherStackData.humidity;
             callback(undefined, feel);
         }
     })
