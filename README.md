@@ -1,4 +1,11 @@
-# nodejs-weather-website
+# Nodejs-Weather-Website (With proper frontend)
 
-## Weather Api Used in this project
+## Api Used
+
+1. Mapbox Api - This Api provides latitude and longitude of a location when address of a location is provided. 
+
+Latitude and Longitude collected from Mapbox Api is further used by Weatherstack Api
+
+2. Weatherstack Api - Take latitude and longitude and provide the temperature of that location.
+
 
